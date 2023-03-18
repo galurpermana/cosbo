@@ -16,8 +16,8 @@ if ($cek > 0) {
     echo"<script>alert('LOGIN BERHASIL');window.location='../index.php';</script>";
     
 }else {
-    // echo"<script>alert('login gagal');window.location='../login/index.php';</script>";
- echo"gagal";
+    echo"<script>alert('login gagal');window.location='../login/index.php';</script>";
+ 
 }
 
 ?>
