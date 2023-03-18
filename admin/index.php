@@ -1,3 +1,12 @@
+<?php 
+session_start();
+if (!isset($_SESSION['login'])) {
+  echo"<script>alert('Harap Login terlebih dahulu');window.location='login/index.php';</script>";
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -227,7 +236,7 @@
 									<div class="dropdown-divider"></div>
 									<a class="dropdown-item" href="#">Account Setting</a>
 									<div class="dropdown-divider"></div>
-									<a class="dropdown-item" href="#">Logout</a>
+									<a class="dropdown-item" href="crud/logout.php">Logout</a>
 								</li>
 							</ul>
 						</li>

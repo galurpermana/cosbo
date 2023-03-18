@@ -1,7 +1,7 @@
 <?php 
 session_start();
 if (isset($_SESSION['login'])) {
-   header( "location:index.php" );
+  echo"<script>alert('Anda sudah Login');window.location='../index.php';</script>";
 }
 
 ?>
