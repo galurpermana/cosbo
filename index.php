@@ -1,3 +1,6 @@
+<?php
+include "chat.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,6 +20,7 @@
 			}
 		});
 	</script>
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
 	<!-- CSS Files -->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -328,29 +332,49 @@
 				<div class="wrapper-chat">
 					<div class="title">Simple Online Chatbot</div>
 					<div class="form">
+					<div class="bot-inbox inbox">
+							<div class="icon">
+								<i class="fas fa-user"></i>
+							</div>
+							<div class="msg-header">
+								<p>Selamat datang di bot pelayanan surat</p>	
+							</div>
+						</div>
+
 						<div class="bot-inbox inbox">
 							<div class="icon">
 								<i class="fas fa-user"></i>
 							</div>
 							<div class="msg-header">
-								<p>Apa yang bisa saya bantu hari ini?</p>
+								<p>berikut daftar list daftar pengajuan surat <br>
+									1.Surat pindah domisili <br>
+									2.Surat Nikah <br>
+									3.Surat dinas <br>
+								</p>
+								
+					
+								
 							</div>
-							
 						</div>
-						<div class="options-field">
+					
+						<!-- <div class="options-field">
 							<div class="options">
 							  <button class="option-btn" id="option1-btn">Option 1</button>
 							  <button class="option-btn" id="option2-btn">Option 2</button>
 							  <button class="option-btn" id="option3-btn">Option 3</button>
 							</div>
-						  </div>
-					
+						</div> -->
+						
+						  
+						
 						
 					
 						<div class="typing-field">
 							<div class="input-data">
-								<input id="data" type="text" placeholder="Type something here.." required>
-								<button id="send-btn">Send</button>
+								<form action="" method="post">
+								<input id="data" name="chat" type="text" placeholder="Type something here.." required>
+								<button name="sent" type="submit"id="send-btn">Send</button>
+								</form>
 							</div>
 						</div>
 					
