@@ -333,10 +333,17 @@
 								<i class="fas fa-user"></i>
 							</div>
 							<div class="msg-header">
-								<p>Hello there, how can I help you?</p>
+								<p>Apa yang bisa saya bantu hari ini?</p>
 							</div>
+							
 						</div>
-					</div>
+						<div class="options-field">
+							<div class="options">
+							  <button class="option-btn" id="option1-btn">Option 1</button>
+							  <button class="option-btn" id="option2-btn">Option 2</button>
+							  <button class="option-btn" id="option3-btn">Option 3</button>
+							</div>
+						  </div>
 					
 						
 					
@@ -435,27 +442,55 @@
 <script src="assets/js/setting-demo.js"></script>
 <script src="assets/js/demo.js"></script>
 <script>
-	$(document).ready(function(){
-		$("#send-btn").on("click", function(){
-			$value = $("#data").val();
-			$msg = '<div class="user-inbox inbox"><div class="msg-header"><p>'+ $value +'</p></div></div>';
-			$(".form").append($msg);
-			$("#data").val('');
-			
-			// start ajax code
-			$.ajax({
-				url: 'message.php',
-				type: 'POST',
-				data: 'text='+$value,
-				success: function(result){
-					$replay = '<div class="bot-inbox inbox"><div class="icon"><i class="fas fa-user"></i></div><div class="msg-header"><p>'+ result +'</p></div></div>';
-					$(".form").append($replay);
-					// when chat goes down the scroll bar automatically comes to the bottom
-					$(".form").scrollTop($(".form")[0].scrollHeight);
-				}
-			});
-		});
-	});
+	  $(document).ready(function(){
+    $("#send-btn").on("click", function(){
+      $value = $("#data").val();
+      $msg = '<div class="user-inbox inbox"><div class="msg-header"><p>'+ $value +'</p></div></div>';
+      $(".form").append($msg);
+      $("#data").val('');
+
+      // start ajax code
+      $.ajax({
+        url: 'message.php',
+        type: 'POST',
+        data: 'text='+$value,
+        success: function(result){
+          $replay = '<div class="bot-inbox inbox"><div class="icon"><i class="fas fa-user"></i></div><div class="msg-header"><p>'+ result +'</p></div></div>';
+          $(".form").append($replay);
+          // when chat goes down the scroll bar automatically comes to the bottom
+          $(".form").scrollTop($(".form")[0].scrollHeight);
+
+          // show options after bot response
+          $(".options-field").show();
+        }
+      });
+    });
+
+    // handle option button clicks
+    $(".option-btn").on("click", function(){
+      $value = $(this).text();
+      $msg = '<div class="user-inbox inbox"><div class="msg-header"><p>'+ $value +'</p></div></div>';
+      $(".form").append($msg);
+      $("#data").val('');
+
+      // hide options after option is chosen
+      $(".options-field").hide();
+
+      // start ajax code for option selection
+      $.ajax({
+        url: 'message.php',
+        type: 'POST',
+        data: 'text='+$value,
+        success: function(result){
+          $replay = '<div class="bot-inbox inbox"><div class="icon"><i class="fas fa-user"></i></div><div class="msg-header"><p>'+ result +'</p></div></div>';
+          $(".form").append($replay);
+          // when chat goes down the scroll bar automatically comes to the bottom
+          $(".form").scrollTop($(".form")[0].scrollHeight);
+        }
+      });
+    });
+  });
+
 </script>
 </body>
 </html>
