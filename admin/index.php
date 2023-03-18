@@ -293,10 +293,9 @@
 							<h4 class="text-section">Components</h4>
 						</li>
 						<li class="nav-item">
-							<a data-toggle="collapse" href="#base">
+							<a href="tables/datatables.html">
 								<i class="fas fa-layer-group"></i>
-								<p>Base</p>
-								<span class="caret"></span>
+								<p>Pengajuan surat</p>
 							</a>
 						</li>
 						
