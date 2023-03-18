@@ -59,7 +59,7 @@ include "chat.php";
 			<nav class="navbar navbar-header navbar-expand-lg">
 				
 				<div class="container-fluid">
-					<div class="collapse" id="search-nav">
+					<!-- <div class="collapse" id="search-nav">
 						<form class="navbar-left navbar-form nav-search mr-md-3">
 							<div class="input-group">
 								<div class="input-group-prepend">
@@ -70,32 +70,15 @@ include "chat.php";
 								<input type="text" placeholder="Search ..." class="form-control">
 							</div>
 						</form>
-					</div>
+					</div> -->
 					<ul class="navbar-nav topbar-nav ml-md-auto align-items-center">
-						<li class="nav-item toggle-nav-search hidden-caret">
+						<!-- <li class="nav-item toggle-nav-search hidden-caret">
 							<a class="nav-link" data-toggle="collapse" href="#search-nav" role="button" aria-expanded="false" aria-controls="search-nav">
 								<i class="fa fa-search"></i>
 							</a>
-						</li>
+						</li> -->
 						
-						<div class="collapse" id="search-nav">
-							<form class="navbar-left navbar-form nav-search mr-md-3">
-								<div class="input-group">
-									<div class="input-group-prepend">
-										<button type="submit" class="btn btn-search pr-1">
-											<i class="fa fa-search search-icon"></i>
-										</button>
-									</div>
-									<input type="text" placeholder="Search ..." class="form-control">
-								</div>
-							</form>
-						</div>
-						<ul class="navbar-nav topbar-nav ml-md-auto align-items-center">
-							<li class="nav-item toggle-nav-search hidden-caret">
-								<a class="nav-link" data-toggle="collapse" href="#search-nav" role="button" aria-expanded="false" aria-controls="search-nav">
-									<i class="fa fa-search"></i>
-								</a>
-							</li>
+						
 						<li class="nav-item dropdown hidden-caret">
 							<a class="nav-link dropdown-toggle" href="#" id="messageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								<i class="fa fa-envelope"></i>
