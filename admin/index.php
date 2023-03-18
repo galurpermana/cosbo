@@ -26,6 +26,8 @@
 	<link rel="stylesheet" href="assets/css/demo.css">
 </head>
 <body>
+
+
 	<div class="wrapper">
 		<!--
 			Tip 1: You can change the background color of the main header using: data-background-color="blue | purple | light-blue | green | orange | red"
@@ -335,7 +337,9 @@
 										<div class="col col-stats ml-3 ml-sm-0">
 											<div class="numbers">
 												<p class="card-category">Pengunjung</p>
-												<h4 class="card-title">1,294</h4>
+												
+													<h4 class="card-title"><span id="visitor-count" >LOADING...</span></h4>
+												
 											</div>
 										</div>
 									</div>
@@ -541,5 +545,19 @@
 <!-- Azzara DEMO methods, don't include it in your project! -->
 <script src="assets/js/setting-demo.js"></script>
 <script src="assets/js/demo.js"></script>
+<script>
+	// Store the visitor count data in a text file
+    fetch("../counter.php")
+      .then(response => response.json())
+      .then(data => {
+        // Display the total visitor count on the page
+        document.getElementById("visitor-count").innerHTML = data.count;
+      })
+      .catch(error => {
+        // Handle errors
+        console.error(error);
+      });
+
+</script>
 </body>
 </html>
