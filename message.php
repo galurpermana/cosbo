@@ -10,7 +10,7 @@ if (mysqli_num_rows($run_query) > 0){
     $replay = $fetch_data['jawaban'];
     echo $replay;
 }else{
-    echo "gak ngerti basa englis";
+    echo "saya tidak mengerti apa yang anda maksud";
 }
 
 

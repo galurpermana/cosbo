@@ -309,11 +309,12 @@ if (!isset($_SESSION['login'])) {
 							<h4 class="text-section">Components</h4>
 						</li>
 						<li class="nav-item">
-							<a href="tables/datatables.html">
+							<a href="tables/datatables.php">
 								<i class="fas fa-layer-group"></i>
 								<p>Pengajuan surat</p>
 							</a>
 						</li>
+						
 
 					</ul>
 				</div>

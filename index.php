@@ -1,20 +1,23 @@
-<?php
-include "chat.php";
-?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<title>Admin cosbo</title>
 	<meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
-	<link rel="icon" href="assets/img/icon.ico" type="image/x-icon"/>
+	<link rel="icon" href="assets/img/icon.ico" type="image/x-icon" />
 
 	<!-- Fonts and icons -->
 	<script src="assets/js/plugin/webfont/webfont.min.js"></script>
 	<script>
 		WebFont.load({
-			google: {"families":["Open+Sans:300,400,600,700"]},
-			custom: {"families":["Flaticon", "Font Awesome 5 Solid", "Font Awesome 5 Regular", "Font Awesome 5 Brands"], urls: ['assets/css/fonts.css']},
+			google: {
+				"families": ["Open+Sans:300,400,600,700"]
+			},
+			custom: {
+				"families": ["Flaticon", "Font Awesome 5 Solid", "Font Awesome 5 Regular", "Font Awesome 5 Brands"],
+				urls: ['assets/css/fonts.css']
+			},
 			active: function() {
 				sessionStorage.fonts = true;
 			}
@@ -29,6 +32,7 @@ include "chat.php";
 	<!-- CSS Just for demo purpose, don't include it in your project -->
 	<link rel="stylesheet" href="assets/css/demo.css">
 </head>
+
 <body>
 	<div class="wrapper">
 		<!--
@@ -37,7 +41,7 @@ include "chat.php";
 		<div class="main-header" data-background-color="purple">
 			<!-- Logo Header -->
 			<div class="logo-header">
-				
+
 				<a href="index.html" class="logo">
 					<img src="assets/img/logoazzara.svg" alt="navbar brand" class="navbar-brand">
 				</a>
@@ -57,7 +61,7 @@ include "chat.php";
 
 			<!-- Navbar Header -->
 			<nav class="navbar navbar-header navbar-expand-lg">
-				
+
 				<div class="container-fluid">
 					<!-- <div class="collapse" id="search-nav">
 						<form class="navbar-left navbar-form nav-search mr-md-3">
@@ -77,8 +81,8 @@ include "chat.php";
 								<i class="fa fa-search"></i>
 							</a>
 						</li> -->
-						
-						
+
+
 						<li class="nav-item dropdown hidden-caret">
 							<a class="nav-link dropdown-toggle" href="#" id="messageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								<i class="fa fa-envelope"></i>
@@ -86,7 +90,7 @@ include "chat.php";
 							<ul class="dropdown-menu messages-notif-box animated fadeIn" aria-labelledby="messageDropdown">
 								<li>
 									<div class="dropdown-title d-flex justify-content-between align-items-center">
-										Messages 									
+										Messages
 										<a href="#" class="small">Mark all as read</a>
 									</div>
 								</li>
@@ -94,7 +98,7 @@ include "chat.php";
 									<div class="message-notif-scroll scrollbar-outer">
 										<div class="notif-center">
 											<a href="#">
-												<div class="notif-img"> 
+												<div class="notif-img">
 													<img src="assets/img/jm_denis.jpg" alt="Img Profile">
 												</div>
 												<div class="notif-content">
@@ -102,11 +106,11 @@ include "chat.php";
 													<span class="block">
 														How are you ?
 													</span>
-													<span class="time">5 minutes ago</span> 
+													<span class="time">5 minutes ago</span>
 												</div>
 											</a>
 											<a href="#">
-												<div class="notif-img"> 
+												<div class="notif-img">
 													<img src="assets/img/chadengle.jpg" alt="Img Profile">
 												</div>
 												<div class="notif-content">
@@ -114,11 +118,11 @@ include "chat.php";
 													<span class="block">
 														Ok, Thanks !
 													</span>
-													<span class="time">12 minutes ago</span> 
+													<span class="time">12 minutes ago</span>
 												</div>
 											</a>
 											<a href="#">
-												<div class="notif-img"> 
+												<div class="notif-img">
 													<img src="assets/img/mlane.jpg" alt="Img Profile">
 												</div>
 												<div class="notif-content">
@@ -126,11 +130,11 @@ include "chat.php";
 													<span class="block">
 														Ready for the meeting today...
 													</span>
-													<span class="time">12 minutes ago</span> 
+													<span class="time">12 minutes ago</span>
 												</div>
 											</a>
 											<a href="#">
-												<div class="notif-img"> 
+												<div class="notif-img">
 													<img src="assets/img/talha.jpg" alt="Img Profile">
 												</div>
 												<div class="notif-content">
@@ -138,7 +142,7 @@ include "chat.php";
 													<span class="block">
 														Hi, Apa Kabar ?
 													</span>
-													<span class="time">17 minutes ago</span> 
+													<span class="time">17 minutes ago</span>
 												</div>
 											</a>
 										</div>
@@ -167,7 +171,7 @@ include "chat.php";
 													<span class="block">
 														New user registered
 													</span>
-													<span class="time">5 minutes ago</span> 
+													<span class="time">5 minutes ago</span>
 												</div>
 											</a>
 											<a href="#">
@@ -176,18 +180,18 @@ include "chat.php";
 													<span class="block">
 														Rahmad commented on Admin
 													</span>
-													<span class="time">12 minutes ago</span> 
+													<span class="time">12 minutes ago</span>
 												</div>
 											</a>
 											<a href="#">
-												<div class="notif-img"> 
+												<div class="notif-img">
 													<img src="assets/img/profile2.jpg" alt="Img Profile">
 												</div>
 												<div class="notif-content">
 													<span class="block">
 														Reza send messages to you
 													</span>
-													<span class="time">12 minutes ago</span> 
+													<span class="time">12 minutes ago</span>
 												</div>
 											</a>
 											<a href="#">
@@ -196,7 +200,7 @@ include "chat.php";
 													<span class="block">
 														Farrah liked Admin
 													</span>
-													<span class="time">17 minutes ago</span> 
+													<span class="time">17 minutes ago</span>
 												</div>
 											</a>
 										</div>
@@ -231,11 +235,11 @@ include "chat.php";
 									<div class="dropdown-divider"></div>
 									<a class="dropdown-item" href="#">Account Setting</a>
 									<div class="dropdown-divider"></div>
-									<a class="dropdown-item" href="#">Logout</a>
+									<a class="dropdown-item" href="logout.php">Logout</a>
 								</li>
 							</ul>
 						</li>
-						
+
 					</ul>
 				</div>
 			</nav>
@@ -244,7 +248,7 @@ include "chat.php";
 
 		<!-- Sidebar -->
 		<div class="sidebar">
-			
+
 			<div class="sidebar-background"></div>
 			<div class="sidebar-wrapper scrollbar-inner">
 				<div class="sidebar-content">
@@ -302,7 +306,7 @@ include "chat.php";
 								<p>Riwayat Surat</p>
 							</a>
 						</li>
-						
+
 					</ul>
 				</div>
 			</div>
@@ -312,192 +316,177 @@ include "chat.php";
 
 		<div class="main-panel">
 			<div class="content">
-				<div class="wrapper-chat">
-					<div class="title">Simple Online Chatbot</div>
-					<div class="form">
-					<div class="bot-inbox inbox">
-							<div class="icon">
-								<i class="fas fa-user"></i>
+				<div class="row">
+					<div class="col-md-8">
+					<form action="crud/domisili.php" method="POST">
+							<div class="card-header">
+								<div class="card-title">Form Control Styles</div>
 							</div>
-							<div class="msg-header">
-								<p>Selamat datang di bot pelayanan surat</p>	
+							<div class="card-body">
+								<div class="form-group">
+									<label for="squareInput">NIK</label>
+									<input name="nik" type="text" class="form-control input-square" id="squareInput" placeholder="Square Input" type="text" class="form-control" id="basic-icon-default-fullname" aria-describedby="basic-icon-default-fullname2"  >
+								</div>
+								<div class="form-group">
+									<label for="squareInput">Nomor Kartu Keluarga</label>
+									<input name="no_kk" type="text" class="form-control input-square" id="squareInput" placeholder="Square Input" type="text" class="form-control" id="basic-icon-default-fullname" aria-describedby="basic-icon-default-fullname2"  >
+								</div>
+								<div class="form-group">
+									<label for="squareInput">Nama Lengkap</label>
+									<input name="nama" type="text" class="form-control input-square" id="squareInput" placeholder="Square Input" type="text" class="form-control" id="basic-icon-default-fullname" aria-describedby="basic-icon-default-fullname2"  >
+								</div>
+								<div class="form-group">
+									<label for="squareInput">Alamat Sekarang</label>
+									<input name="almt_skr" type="text" class="form-control input-square" id="squareInput" placeholder="Square Input" type="text" class="form-control" id="basic-icon-default-fullname" aria-describedby="basic-icon-default-fullname2"  >
+								</div>
+								<div class="form-group">
+									<label for="squareInput">Alamat Tujuan</label>
+									<input name="almt_tjn" type="text" class="form-control input-square" id="squareInput" placeholder="Square Input" type="text" class="form-control" id="basic-icon-default-fullname" aria-describedby="basic-icon-default-fullname2"  >
+								</div>
+								<div class="form-group">
+									<label for="squareInput">Jumlah Keluarga</label>
+									<input name="jml" type="text" class="form-control input-square" id="squareInput" placeholder="Square Input" type="text" class="form-control" id="basic-icon-default-fullname" aria-describedby="basic-icon-default-fullname2"  >
+								</div>
+							</div>
+							<div class="card-action">
+								<button class="btn btn-success" type="submit">Submit</button>
+								<button class="btn btn-danger" type="cancel">Cancel</button>
+							</div>
+						</form>
+					</div>
+					<div class="col-md-4">
+						<div class="card card-secondary">
+							<div class="wrapper-chat">
+								<div class="title">Simple Online Chatbot</div>
+								<div class="form">
+									<div class="bot-inbox inbox">
+										<div class="icon">
+											<i class="fas fa-user"></i>
+										</div>
+										<div class="msg-header">
+											<p>Hello there, how can I help you?</p>
+										</div>
+									</div>
+								</div>
+								<div class="typing-field">
+									<div class="input-data">
+										<input id="data" type="text" placeholder="Type something here.." required>
+										<button id="send-btn">Send</button>
+									</div>
+								</div>
 							</div>
 						</div>
 
-						<div class="bot-inbox inbox">
-							<div class="icon">
-								<i class="fas fa-user"></i>
-							</div>
-							<div class="msg-header">
-								<p>berikut daftar list daftar pengajuan surat <br>
-									1.Surat pindah domisili <br>
-									2.Surat Nikah <br>
-									3.Surat dinas <br>
-								</p>
-								
-					
-								
-							</div>
-						</div>
-					
-						<!-- <div class="options-field">
-							<div class="options">
-							  <button class="option-btn" id="option1-btn">Option 1</button>
-							  <button class="option-btn" id="option2-btn">Option 2</button>
-							  <button class="option-btn" id="option3-btn">Option 3</button>
-							</div>
-						</div> -->
-						
-						  
-						
-						
-					
-						<div class="typing-field">
-							<div class="input-data">
-								<form action="" method="post">
-								<input id="data" name="chat" type="text" placeholder="Type something here.." required>
-								<button name="sent" type="submit"id="send-btn">Send</button>
-								</form>
-							</div>
-						</div>
-					
+					</div>
 				</div>
+
+
 			</div>
+
+			<!-- Custom template | don't include it in your project! -->
 			
+			<!-- End Custom template -->
 		</div>
-		 
-		<!-- Custom template | don't include it in your project! -->
-		<div class="custom-template">
-			<div class="title">Settings</div>
-			<div class="custom-content">
-				<div class="switcher">
-					<div class="switch-block">
-						<h4>Topbar</h4>
-						<div class="btnSwitch">
-							<button type="button" class="changeMainHeaderColor" data-color="blue"></button>
-							<button type="button" class="selected changeMainHeaderColor" data-color="purple"></button>
-							<button type="button" class="changeMainHeaderColor" data-color="light-blue"></button>
-							<button type="button" class="changeMainHeaderColor" data-color="green"></button>
-							<button type="button" class="changeMainHeaderColor" data-color="orange"></button>
-							<button type="button" class="changeMainHeaderColor" data-color="red"></button>
-						</div>
-					</div>
-					<div class="switch-block">
-						<h4>Background</h4>
-						<div class="btnSwitch">
-							<button type="button" class="changeBackgroundColor" data-color="bg2"></button>
-							<button type="button" class="changeBackgroundColor selected" data-color="bg1"></button>
-							<button type="button" class="changeBackgroundColor" data-color="bg3"></button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="custom-toggle">
-				<i class="flaticon-settings"></i>
-			</div>
-		</div>
-		<!-- End Custom template -->
 	</div>
-</div>
-<!--   Core JS Files   -->
-<script src="assets/js/core/jquery.3.2.1.min.js"></script>
-<script src="assets/js/core/popper.min.js"></script>
-<script src="assets/js/core/bootstrap.min.js"></script>
+	<!--   Core JS Files   -->
+	<script src="assets/js/core/jquery.3.2.1.min.js"></script>
+	<script src="assets/js/core/popper.min.js"></script>
+	<script src="assets/js/core/bootstrap.min.js"></script>
 
-<!-- jQuery UI -->
-<script src="assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
-<script src="assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script>
+	<!-- jQuery UI -->
+	<script src="assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+	<script src="assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script>
 
-<!-- jQuery Scrollbar -->
-<script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+	<!-- jQuery Scrollbar -->
+	<script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
 
-<!-- Moment JS -->
-<script src="assets/js/plugin/moment/moment.min.js"></script>
+	<!-- Moment JS -->
+	<script src="assets/js/plugin/moment/moment.min.js"></script>
 
-<!-- Chart JS -->
-<script src="assets/js/plugin/chart.js/chart.min.js"></script>
+	<!-- Chart JS -->
+	<script src="assets/js/plugin/chart.js/chart.min.js"></script>
 
-<!-- jQuery Sparkline -->
-<script src="assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
+	<!-- jQuery Sparkline -->
+	<script src="assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
 
-<!-- Chart Circle -->
-<script src="assets/js/plugin/chart-circle/circles.min.js"></script>
+	<!-- Chart Circle -->
+	<script src="assets/js/plugin/chart-circle/circles.min.js"></script>
 
-<!-- Datatables -->
-<script src="assets/js/plugin/datatables/datatables.min.js"></script>
+	<!-- Datatables -->
+	<script src="assets/js/plugin/datatables/datatables.min.js"></script>
 
-<!-- Bootstrap Notify -->
-<script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+	<!-- Bootstrap Notify -->
+	<!-- <script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script> -->
 
-<!-- Bootstrap Toggle -->
-<script src="assets/js/plugin/bootstrap-toggle/bootstrap-toggle.min.js"></script>
+	<!-- Bootstrap Toggle -->
+	<script src="assets/js/plugin/bootstrap-toggle/bootstrap-toggle.min.js"></script>
 
-<!-- jQuery Vector Maps -->
-<script src="assets/js/plugin/jqvmap/jquery.vmap.min.js"></script>
-<script src="assets/js/plugin/jqvmap/maps/jquery.vmap.world.js"></script>
+	<!-- jQuery Vector Maps -->
+	<script src="assets/js/plugin/jqvmap/jquery.vmap.min.js"></script>
+	<script src="assets/js/plugin/jqvmap/maps/jquery.vmap.world.js"></script>
 
-<!-- Google Maps Plugin -->
-<script src="assets/js/plugin/gmaps/gmaps.js"></script>
+	<!-- Google Maps Plugin -->
+	<script src="assets/js/plugin/gmaps/gmaps.js"></script>
 
-<!-- Sweet Alert -->
-<script src="assets/js/plugin/sweetalert/sweetalert.min.js"></script>
+	<!-- Sweet Alert -->
+	<script src="assets/js/plugin/sweetalert/sweetalert.min.js"></script>
 
-<!-- Azzara JS -->
-<script src="assets/js/ready.min.js"></script>
+	<!-- Azzara JS -->
+	<script src="assets/js/ready.min.js"></script>
 
-<!-- Azzara DEMO methods, don't include it in your project! -->
-<script src="assets/js/setting-demo.js"></script>
-<script src="assets/js/demo.js"></script>
-<script>
-	  $(document).ready(function(){
-    $("#send-btn").on("click", function(){
-      $value = $("#data").val();
-      $msg = '<div class="user-inbox inbox"><div class="msg-header"><p>'+ $value +'</p></div></div>';
-      $(".form").append($msg);
-      $("#data").val('');
+	<!-- Azzara DEMO methods, don't include it in your project! -->
+	<script src="assets/js/setting-demo.js"></script>
+	<script src="assets/js/demo.js"></script>
+	<script>
+		$(document).ready(function() {
+			$("#send-btn").on("click", function() {
+				$value = $("#data").val();
+				$msg = '<div class="user-inbox inbox"><div class="msg-header"><p>' + $value + '</p></div></div>';
+				$(".form").append($msg);
+				$("#data").val('');
 
-      // start ajax code
-      $.ajax({
-        url: 'message.php',
-        type: 'POST',
-        data: 'text='+$value,
-        success: function(result){
-          $replay = '<div class="bot-inbox inbox"><div class="icon"><i class="fas fa-user"></i></div><div class="msg-header"><p>'+ result +'</p></div></div>';
-          $(".form").append($replay);
-          // when chat goes down the scroll bar automatically comes to the bottom
-          $(".form").scrollTop($(".form")[0].scrollHeight);
+				// start ajax code
+				$.ajax({
+					url: 'message.php',
+					type: 'POST',
+					data: 'text=' + $value,
+					success: function(result) {
+						$replay = '<div class="bot-inbox inbox"><div class="icon"><i class="fas fa-user"></i></div><div class="msg-header"><p>' + result + '</p></div></div>';
+						$(".form").append($replay);
+						// when chat goes down the scroll bar automatically comes to the bottom
+						// $(".form").scrollTop($(".form")[0].scrollHeight);
 
-          // show options after bot response
-          $(".options-field").show();
-        }
-      });
-    });
+						// show options after bot response
+						// $(".options-field").show();
+					}
+				});
+			});
 
-    // handle option button clicks
-    $(".option-btn").on("click", function(){
-      $value = $(this).text();
-      $msg = '<div class="user-inbox inbox"><div class="msg-header"><p>'+ $value +'</p></div></div>';
-      $(".form").append($msg);
-      $("#data").val('');
+			// handle option button clicks
+			$(".option-btn").on("click", function() {
+				$value = $(this).text();
+				$msg = '<div class="user-inbox inbox"><div class="msg-header"><p>' + $value + '</p></div></div>';
+				$(".form").append($msg);
+				$("#data").val('');
 
-      // hide options after option is chosen
-      $(".options-field").hide();
+				// hide options after option is chosen
+				$(".options-field").hide();
 
-      // start ajax code for option selection
-      $.ajax({
-        url: 'message.php',
-        type: 'POST',
-        data: 'text='+$value,
-        success: function(result){
-          $replay = '<div class="bot-inbox inbox"><div class="icon"><i class="fas fa-user"></i></div><div class="msg-header"><p>'+ result +'</p></div></div>';
-          $(".form").append($replay);
-          // when chat goes down the scroll bar automatically comes to the bottom
-          $(".form").scrollTop($(".form")[0].scrollHeight);
-        }
-      });
-    });
-  });
-
-</script>
+				// start ajax code for option selection
+				$.ajax({
+					url: 'message.php',
+					type: 'POST',
+					data: 'text=' + $value,
+					success: function(result) {
+						$replay = '<div class="bot-inbox inbox"><div class="icon"><i class="fas fa-user"></i></div><div class="msg-header"><p>' + result + '</p></div></div>';
+						$(".form").append($replay);
+						// when chat goes down the scroll bar automatically comes to the bottom
+						$(".form").scrollTop($(".form")[0].scrollHeight);
+					}
+				});
+			});
+		});
+	</script>
 </body>
+
 </html>
