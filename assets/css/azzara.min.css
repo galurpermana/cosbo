@@ -10227,7 +10227,7 @@ div.table-responsive
    font-size: 14px;
    word-break: break-all;
 }
-.form .user-inbox .msg-header p{
+.form .user-inbox .msg-header p {
    color: #333;
    background: #efefef;
 }
@@ -10240,7 +10240,7 @@ div.table-responsive
    background: #efefef;
    border-top: 1px solid #d9d9d9;
    border-radius: 0 0 5px 5px;
-   position: fixed;
+
    bottom: 0;
 }
 .wrapper-chat .typing-field .input-data{

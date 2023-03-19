@@ -1,0 +1,12 @@
+{
+    "name": "user/forms",
+    "authors": [
+        {
+            "name": "Muhammad Syahril Faizal",
+            "email": "endabolehtau123@gmail.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpword": "^1.0"
+    }
+}
