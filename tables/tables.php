@@ -242,7 +242,7 @@ $idus= $_SESSION['id'];
 			
 			<div class="sidebar-wrapper scrollbar-inner">
 				<div class="sidebar-content">
-					<div class="user">
+					<!-- <div class="user">
 						<div class="avatar-sm float-left mr-2">
 							<img src="../assets/img/profile.jpg" alt="..." class="avatar-img rounded-circle">
 						</div>
@@ -276,10 +276,10 @@ $idus= $_SESSION['id'];
 								</ul>
 							</div>
 						</div>
-					</div>
+					</div> -->
 					<ul class="nav">
 						<li class="nav-item">
-							<a href="../index.html">
+							<a href="../index.php">
 								<i class="fas fa-home"></i>
 								<p>Dashboard</p>
 								<span class="badge badge-count">5</span>
@@ -377,11 +377,11 @@ $idus= $_SESSION['id'];
 											<span class="sub-item">Basic Table</span>
 										</a>
 									</li> -->
-									<li class="active">
+									<!-- <li class="active">
 										<a href="../tables/datatables.html">
 											<span class="sub-item">Datatables</span>
 										</a>
-									</li>
+									</li> -->
 								</ul>
 							</div>
 						</li>

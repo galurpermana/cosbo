@@ -95,7 +95,7 @@ if (!isset($_SESSION['login'])) {
 							<a class="nav-link dropdown-toggle" href="#" id="messageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								<i class="fa fa-envelope"></i>
 							</a>
-							<ul class="dropdown-menu messages-notif-box animated fadeIn" aria-labelledby="messageDropdown">
+							<!-- <ul class="dropdown-menu messages-notif-box animated fadeIn" aria-labelledby="messageDropdown">
 								<li>
 									<div class="dropdown-title d-flex justify-content-between align-items-center">
 										Messages
@@ -159,7 +159,7 @@ if (!isset($_SESSION['login'])) {
 								<li>
 									<a class="see-all" href="javascript:void(0);">See all messages<i class="fa fa-angle-right"></i> </a>
 								</li>
-							</ul>
+							</ul> -->
 						</li>
 						<li class="nav-item dropdown hidden-caret">
 							<a class="nav-link dropdown-toggle" href="#" id="notifDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -230,20 +230,20 @@ if (!isset($_SESSION['login'])) {
 									<div class="user-box">
 										<div class="avatar-lg"><img src="assets/img/profile.jpg" alt="image profile" class="avatar-img rounded"></div>
 										<div class="u-text">
-											<h4>Hizrian</h4>
-											<p class="text-muted">hello@example.com</p><a href="profile.html" class="btn btn-rounded btn-danger btn-sm">View Profile</a>
+											<h4>Admin</h4>
+											<!-- <p class="text-muted">hello@example.com</p><a href="profile.html" class="btn btn-rounded btn-danger btn-sm">View Profile</a> -->
 										</div>
 									</div>
 								</li>
 								<li>
-									<div class="dropdown-divider"></div>
+									<!-- <div class="dropdown-divider"></div>
 									<a class="dropdown-item" href="#">My Profile</a>
 									<a class="dropdown-item" href="#">My Balance</a>
 									<a class="dropdown-item" href="#">Inbox</a>
 									<div class="dropdown-divider"></div>
-									<a class="dropdown-item" href="#">Account Setting</a>
+									<a class="dropdown-item" href="#">Account Setting</a> -->
 									<div class="dropdown-divider"></div>
-									<a class="dropdown-item" href="#">Logout</a>
+									<a class="dropdown-item" href="crud/logout.php">Logout</a>
 								</li>
 							</ul>
 						</li>
@@ -267,14 +267,14 @@ if (!isset($_SESSION['login'])) {
 						<div class="info">
 							<a data-toggle="collapse" href="#collapseExample" aria-expanded="true">
 								<span>
-									Hizrian
+									Admin
 									<span class="user-level">Administrator</span>
 									<span class="caret"></span>
 								</span>
 							</a>
 							<div class="clearfix"></div>
 
-							<div class="collapse in" id="collapseExample">
+							<!-- <div class="collapse in" id="collapseExample">
 								<ul class="nav">
 									<li>
 										<a href="#profile">
@@ -292,7 +292,7 @@ if (!isset($_SESSION['login'])) {
 										</a>
 									</li>
 								</ul>
-							</div>
+							</div> -->
 						</div>
 					</div>
 					<ul class="nav">
@@ -327,7 +327,7 @@ if (!isset($_SESSION['login'])) {
 				<div class="page-inner">
 					<div class="page-header">
 						<h4 class="page-title">Dashboard</h4>
-						<div class="btn-group btn-group-page-header ml-auto">
+						<!-- <div class="btn-group btn-group-page-header ml-auto">
 							<button type="button" class="btn btn-light btn-round btn-page-header-dropdown dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								<i class="fa fa-ellipsis-h"></i>
 							</button>
@@ -339,7 +339,7 @@ if (!isset($_SESSION['login'])) {
 								<div class="dropdown-divider"></div>
 								<a class="dropdown-item" href="#">Separated link</a>
 							</div>
-						</div>
+						</div> -->
 					</div>
 					<div class="row">
 						<div class="col-sm-6 col-md-3">
@@ -394,7 +394,7 @@ if (!isset($_SESSION['login'])) {
 										<div class="col col-stats ml-3 ml-sm-0">
 											<div class="numbers">
 												<p class="card-category">Pengajuan Hari ini </p>
-												<h4 class="card-title">$ 1,345</h4>
+												<h4 class="card-title">5</h4>
 											</div>
 										</div>
 									</div>
@@ -426,7 +426,7 @@ if (!isset($_SESSION['login'])) {
 							<div class="card">
 								<div class="card-header">
 									<div class="card-head-row">
-										<div class="card-title">User Statistics</div>
+										<div class="card-title">Grafik Bulanan User</div>
 										<div class="card-tools">
 											<a href="#" class="btn btn-info btn-border btn-round btn-sm mr-2">
 												<span class="btn-label">
@@ -451,7 +451,7 @@ if (!isset($_SESSION['login'])) {
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<!-- <div class="col-md-4">
 							<div class="card card-secondary">
 								<div class="card-header">
 									<div class="card-title">Daily Sales</div>
@@ -472,7 +472,7 @@ if (!isset($_SESSION['login'])) {
 									<div id="task-complete" class="chart-circle mt-4 mb-3"></div>
 								</div>
 							</div>
-						</div>
+						</div> -->
 					</div>
 
 				</div>
