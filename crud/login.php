@@ -16,7 +16,7 @@ if ($cek > 0) {
     $_SESSION['id']=$data['id_user'];
     $_SESSION['nama']=$data['nama'];
     $_SESSION['nik']=$data['nik'];
-    echo"<script>alert('LOGIN BERHASIL');window.location='../index.html';</script>";
+    echo"<script>alert('LOGIN BERHASIL');window.location='../index.php';</script>";
     
 }else {
     echo"<script>alert('login gagal');window.location='../login/index.php';</script>";

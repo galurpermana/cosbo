@@ -42,8 +42,9 @@
 			<!-- Logo Header -->
 			<div class="logo-header">
 
-				<a href="index.html" class="logo">
-					<img src="assets/img/logoazzara.svg" alt="navbar brand" class="navbar-brand">
+				<a href="index.html" class="cosbo">
+					<!-- <img src="assets/img/logoazzara.svg" alt="navbar brand" class="navbar-brand"> -->
+					<strong><h1 style="color: white;">COSBO</h1></strong>
 				</a>
 				<button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon">
@@ -83,7 +84,7 @@
 						</li> -->
 
 
-						<li class="nav-item dropdown hidden-caret">
+						<!-- <li class="nav-item dropdown hidden-caret">
 							<a class="nav-link dropdown-toggle" href="#" id="messageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								<i class="fa fa-envelope"></i>
 							</a>
@@ -210,7 +211,7 @@
 									<a class="see-all" href="javascript:void(0);">See all notifications<i class="fa fa-angle-right"></i> </a>
 								</li>
 							</ul>
-						</li>
+						</li> -->
 						<li class="nav-item dropdown hidden-caret">
 							<a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#" aria-expanded="false">
 								<div class="avatar-sm">
@@ -220,20 +221,20 @@
 							<ul class="dropdown-menu dropdown-user animated fadeIn">
 								<li>
 									<div class="user-box">
-										<div class="avatar-lg"><img src="assets/img/profile.jpg" alt="image profile" class="avatar-img rounded"></div>
+										<!-- <div class="avatar-lg"><img src="assets/img/profile.jpg" alt="image profile" class="avatar-img rounded"></div> -->
 										<div class="u-text">
-											<h4>Hizrian</h4>
-											<p class="text-muted">hello@example.com</p><a href="profile.html" class="btn btn-rounded btn-danger btn-sm">View Profile</a>
+											<h4>Mamat</h4>
+											<!-- <p class="text-muted">hello@example.com</p><a href="profile.html" class="btn btn-rounded btn-danger btn-sm">View Profile</a> -->
 										</div>
 									</div>
 								</li>
 								<li>
-									<div class="dropdown-divider"></div>
+									<!-- <div class="dropdown-divider"></div>
 									<a class="dropdown-item" href="#">My Profile</a>
 									<a class="dropdown-item" href="#">My Balance</a>
 									<a class="dropdown-item" href="#">Inbox</a>
 									<div class="dropdown-divider"></div>
-									<a class="dropdown-item" href="#">Account Setting</a>
+									<a class="dropdown-item" href="#">Account Setting</a> -->
 									<div class="dropdown-divider"></div>
 									<a class="dropdown-item" href="logout.php">Logout</a>
 								</li>
@@ -252,7 +253,7 @@
 			<div class="sidebar-background"></div>
 			<div class="sidebar-wrapper scrollbar-inner">
 				<div class="sidebar-content">
-					<div class="user">
+					<!-- <div class="user">
 						<div class="avatar-sm float-left mr-2">
 							<img src="assets/img/profile.jpg" alt="..." class="avatar-img rounded-circle">
 						</div>
@@ -286,7 +287,7 @@
 								</ul>
 							</div>
 						</div>
-					</div>
+					</div> -->
 					<ul class="nav">
 						<li class="nav-item active">
 							<a href="index.php">
@@ -301,7 +302,7 @@
 							<h4 class="text-section">Components</h4>
 						</li>
 						<li class="nav-item">
-							<a href="tables/datatables.html">
+							<a href="tables/tables.php">
 								<i class="fas fa-layer-group"></i>
 								<p>Riwayat Surat</p>
 							</a>
@@ -357,7 +358,7 @@
 					<div class="col-md-4">
 						<div class="card card-secondary">
 							<div class="wrapper-chat">
-								<div class="title">Simple Online Chatbot</div>
+								<div class="title">COSBO</div>
 								<div class="form">
 									<div class="bot-inbox inbox">
 										<div class="icon">
